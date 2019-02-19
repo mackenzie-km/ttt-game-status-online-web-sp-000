@@ -23,7 +23,9 @@ winning_index_2 = sub_array[1]
 winning_index_3 = sub_array[2]
 
 board_index_1 = board[winning_index_1]
+board_index_2 = board[winning_index_2]
+board_index_3 = board[winning_index_3]
 
-board_index_1 == 
+if board_index_1 == "X" && 
 
 end
