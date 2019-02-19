@@ -19,6 +19,14 @@ WIN_COMBINATIONS = [
 def won?(board)
 for sub_array in WIN_COMBINATIONS
 win_index_1 = sub_array[0]
+win_index_2 = sub_array[1]
+win_index_3 = sub_array[2]
+win_index_4 = sub_array[3]
+win_index_5 = sub_array[4]
+win_index_6 = sub_array[5]
+win_index_7 = sub_array[6]
+win_index_8 = sub_array[7]
+win_index_9 = sub_array[0]
 
 
 end
