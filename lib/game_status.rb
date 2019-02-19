@@ -27,9 +27,9 @@ board_index_2 = board[winning_index_2]
 board_index_3 = board[winning_index_3]
 
 if board_index_1 == "X" && board_index_2 == "X" && board_index_3 == "X"
-  sub_array
+  return sub_array
 else
-  false
+  return false
 end
 end
 end
