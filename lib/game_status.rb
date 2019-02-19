@@ -26,10 +26,10 @@ board_index_1 = board[winning_index_1]
 board_index_2 = board[winning_index_2]
 board_index_3 = board[winning_index_3]
 
-if (board_index_1 == "X" && board_index_2 == "X" && board_index_3 == "X") || (board_index_1 == "O" && board_index_2 == "O" && board_index_3 == "O") 
+if (board_index_1 == "X" && board_index_2 == "X" && board_index_3 == "X") || (board_index_1 == "O" && board_index_2 == "O" && board_index_3 == "O") == true
   return sub_array
 else
-  return false
+  false
 end
 end
 end
