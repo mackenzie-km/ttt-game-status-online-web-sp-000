@@ -31,5 +31,6 @@ if board_index_1 == "X" && board_index_2 == "X" && board_index_3 == "X"
 else
   false
 end
+sub_array
 end
 end
