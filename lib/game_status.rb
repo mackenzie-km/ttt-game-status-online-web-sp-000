@@ -17,6 +17,8 @@ WIN_COMBINATIONS = [
   
 
 def won?(board)
+for sub_array in WIN_COMBINATIONS
+win_index_1 = sub_array[0]
 
 
 end
