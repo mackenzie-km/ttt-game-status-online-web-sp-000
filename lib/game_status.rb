@@ -32,8 +32,8 @@ board_index_3 = board[winning_index_3]
 else
  false
 end
-binding.pry
 end
+binding.pry
 end
 
 
