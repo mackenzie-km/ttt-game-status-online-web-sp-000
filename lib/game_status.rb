@@ -31,6 +31,6 @@ board_index_3 = board[winning_index_3]
 else
   return_value = false
 end
-  return_value
+  return return_value
 end
 end
