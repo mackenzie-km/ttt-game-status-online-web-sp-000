@@ -63,3 +63,13 @@ else
   false
 end
 end
+
+def winner(board)
+  sub_array = won?(board)
+  if sub_array.include?("X")
+   return "X"
+  elsif sub_array.include("O")
+   return "O"
+  else 
+    return nil
+    
