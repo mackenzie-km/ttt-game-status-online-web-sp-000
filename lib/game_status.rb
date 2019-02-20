@@ -27,10 +27,9 @@ board_index_2 = board[winning_index_2]
 board_index_3 = board[winning_index_3]
 
  if (board_index_1 == "X" && board_index_2 == "X" && board_index_3 == "X") || (board_index_1 == "O" && board_index_2 == "O" && board_index_3 == "O") 
-  return_value = sub_array
+  return sub_array
 else
-  return_value = false
+ false
 end
-  return return_value
 end
 end
