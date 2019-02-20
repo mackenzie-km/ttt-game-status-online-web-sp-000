@@ -33,3 +33,12 @@ else
 end
 end
 end
+
+
+def full(board)
+  if board.include?(" " || "" || nil)
+    false
+  else
+    true 
+  end 
+    
