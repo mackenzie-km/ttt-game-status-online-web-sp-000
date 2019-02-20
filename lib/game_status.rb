@@ -44,4 +44,4 @@ def full?(board)
 end
 
 def draw?(board)
-  if !board.include?(" " || "" || nil)
+  if !board.include?(" " || "" || nil) && won(board)
