@@ -47,12 +47,9 @@ end
 def draw?(board)
   if won(board) == TRUE
     FALSE
-  elsif won(board) == false && board.include?(" " || "" || nil)
+  elsif board.include?(" " || "" || nil)
     FALSE 
-    !board.include?(" " || "" || nil) && (won(board) == false)
-    TRUE 
- 
   else
-    FALSE
+    TRUE
 end 
 end 
