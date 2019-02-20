@@ -63,7 +63,7 @@ end
 end
 
 def winner(board)
-won?(board)
+sub_array = won?(board)
 testing_index = sub_array[1]
   if board[testing_index] == "X"
    return "X"
