@@ -31,6 +31,6 @@ if (board_index_1 == "X" && board_index_2 == "X" && board_index_3 == "X") || (bo
 else
   false
 end
-return_value
 end
+return_value
 end
