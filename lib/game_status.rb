@@ -71,6 +71,6 @@ def winner(board)
    return "O"
   else 
     return nil
+    binding.pry
   end
-binding.pry
 end
