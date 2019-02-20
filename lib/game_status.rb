@@ -62,11 +62,9 @@ else
 end
 end
 
-require "pry"
 def winner(board)
 won?(board)
 testing_index = sub_array[1]
-binding.pry
   if board[testing_index] == "X"
    return "X"
   elsif board[testing_index] == "O"
