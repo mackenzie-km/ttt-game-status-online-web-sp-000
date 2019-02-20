@@ -68,10 +68,10 @@ def winner(board)
   sub_array = won?(board)
   if sub_array.include?("X")
    return "X"
+    binding.pry
   elsif sub_array.include?("O")
    return "O"
   else 
     return nil
-    binding.pry
   end
 end
