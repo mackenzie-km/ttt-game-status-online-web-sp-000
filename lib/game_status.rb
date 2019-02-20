@@ -67,9 +67,9 @@ def winner(board)
   require "pry"
   sub_array = won?(board)
     binding.pry
-  if sub_array[1]]("X")
+  if board[1] == "X"
    return "X"
-  elsif sub_array[1].include?("O")
+  elsif board[2] == "O"
    return "O"
   else 
     return nil
