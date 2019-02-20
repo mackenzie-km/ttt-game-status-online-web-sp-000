@@ -31,6 +31,6 @@ return_value = if (board_index_1 == "X" && board_index_2 == "X" && board_index_3
 else
   false
 end
-end
 return_value
+end
 end
