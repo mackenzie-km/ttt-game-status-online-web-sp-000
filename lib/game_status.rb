@@ -17,6 +17,7 @@ WIN_COMBINATIONS = [
   
 
 def won?(board)
+  require "pry"
 for sub_array in WIN_COMBINATIONS do
 winning_index_1 = sub_array[0]
 winning_index_2 = sub_array[1]
@@ -31,6 +32,7 @@ board_index_3 = board[winning_index_3]
 else
  false
 end
+binding.pry
 end
 end
 
