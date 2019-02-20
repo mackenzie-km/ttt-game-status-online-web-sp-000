@@ -45,11 +45,11 @@ def full?(board)
 end
 
 def draw?(board)
-  if won?(board) == TRUE
-    FALSE
+  if won?(board) 
+    return false
   elsif board.include?(" " || "" || nil)
-    FALSE 
+    false 
   else
-    TRUE
+    true
 end 
 end 
