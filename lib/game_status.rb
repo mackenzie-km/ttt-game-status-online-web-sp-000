@@ -64,10 +64,9 @@ end
 
 def winner(board)
 sub_array = won?(board)
-testing_index = sub_array[1]
-  if board[testing_index] == "X"
+  if board[sub_array[1]] == "X"
    return "X"
-  elsif board[testing_index] == "O"
+  elsif board[sub_array[1]] == "O"
    return "O"
   else 
     return nil
