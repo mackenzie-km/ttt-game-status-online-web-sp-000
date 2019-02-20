@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
   
 
 def won?(board)
-return_value = for sub_array in WIN_COMBINATIONS
+for sub_array in WIN_COMBINATIONS
 winning_index_1 = sub_array[0]
 winning_index_2 = sub_array[1]
 winning_index_3 = sub_array[2]
@@ -26,11 +26,12 @@ board_index_1 = board[winning_index_1]
 board_index_2 = board[winning_index_2]
 board_index_3 = board[winning_index_3]
 
-if (board_index_1 == "X" && board_index_2 == "X" && board_index_3 == "X") || (board_index_1 == "O" && board_index_2 == "O" && board_index_3 == "O") 
-  return sub_array
+ if (board_index_1 == "X" && board_index_2 == "X" && board_index_3 == "X") || (board_index_1 == "O" && board_index_2 == "O" && board_index_3 == "O") 
+  return_value = sub_array
 else
-  false
+  return_value = false
 end
+  
 end
 return_value
 end
