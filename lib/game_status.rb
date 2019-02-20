@@ -35,7 +35,7 @@ end
 end
 
 
-def full(board)
+def full?(board)
   if board.include?(" " || "" || nil)
     false
   else
