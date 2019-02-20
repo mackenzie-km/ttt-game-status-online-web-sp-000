@@ -62,10 +62,9 @@ else
 end
 end
 
-
+require "pry"
 def winner(board)
 won?(board)
-  require "pry"
 testing_index = sub_array[1]
 binding.pry
   if board[testing_index] == "X"
