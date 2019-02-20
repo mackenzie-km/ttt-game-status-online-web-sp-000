@@ -28,8 +28,6 @@ board_index_3 = board[winning_index_3]
 
  if (board_index_1 == "X" && board_index_2 == "X" && board_index_3 == "X") || (board_index_1 == "O" && board_index_2 == "O" && board_index_3 == "O") 
   return sub_array
-else
- false
 end
 end
 false
