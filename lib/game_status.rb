@@ -62,6 +62,7 @@ else
 end
 end
 
+require "pry"
 def winner(board)
   sub_array = won?(board)
   if sub_array.include?("X")
@@ -71,4 +72,5 @@ def winner(board)
   else 
     return nil
   end
+binding.pry
 end
