@@ -52,4 +52,3 @@ def draw?(board)
     FALSE
 end 
 end 
-end  
