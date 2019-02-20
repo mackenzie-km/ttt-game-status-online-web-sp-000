@@ -62,8 +62,9 @@ else
 end
 end
 
-require "pry"
+
 def winner(board)
+  require "pry"
   sub_array = won?(board)
   if sub_array.include?("X")
    return "X"
